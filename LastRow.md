@@ -1,4 +1,28 @@
 <pre>
+Function LastRow(Optional SHUse, Optional WBUse) As Long
+
+    If (IsMissing(SHUse)) Then SHUse = ActiveSheet.Name
+    If (IsMissing(WBUse)) Then WBUse = ActiveWorkbook.Name
+
+    If WorksheetFunction.CountA(Workbooks(WBUse).Sheets(SHUse).Cells) > 0 Then
+
+        'Search for any entry, by searching backwards by Rows.
+
+        LastRow = Workbooks(WBUse).Sheets(SHUse).Cells.Find(What:="*", After:=[A1], _
+              SearchOrder:=xlByRows, _
+              SearchDirection:=xlPrevious).Row
+              
+        'LastRow = Cells.SpecialCells(xlCellTypeLastCell).Row
+    End If
+
+End Function
+</pre>
+
+--------------------------------------------
+Possible Alternative
+
+
+<pre>
 '
 ' This function will return 0 if nothing there
 '
