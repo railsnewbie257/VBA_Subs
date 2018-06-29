@@ -8,9 +8,10 @@ Function LastRow(Optional SHUse, Optional WBUse) As Long
 
         'Search for any entry, by searching backwards by Rows.
 
-        LastRow = Workbooks(WBUse).Sheets(SHUse).Cells.Find(What:="*", After:=[A1], _
-              SearchOrder:=xlByRows, _
-              SearchDirection:=xlPrevious).Row
+        LastRow = Workbooks(WBUse).Sheets(SHUse).Cells.Find(What:="*", _
+            After:=[A1], _
+            SearchOrder:=xlByRows, _
+            SearchDirection:=xlPrevious).Row
               
         'LastRow = Cells.SpecialCells(xlCellTypeLastCell).Row
     End If
