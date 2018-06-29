@@ -1,3 +1,6 @@
+<b>Dependency</b>
+- LastRow
+
 <pre>
 Function ColumnLastRow(Optional useCol, Optional SHUse, Optional WBUse) ' problem ?
 
