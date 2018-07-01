@@ -23,7 +23,7 @@ Dim DBRs As ADODB.Recordset
     Exit Sub
     
 GotErr:
-    Debug_Print i & "    Error: ~" & Err.Description & "~"
+    Debug_Print i & "    Error: ~" & Err.Description & "~", Title:="UsageTracker"
     Set DBCn = DBCheckConnection(DBCn)
     Set DBRs = DBCheckRecordset(DBRs)
     Set DBRs.ActiveConnection = DBCn
