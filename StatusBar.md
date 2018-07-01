@@ -1,13 +1,17 @@
 <pre>
-Function StatusBarOn()
+Function <b>StatusBarOn</b>()
     Application.DisplayStatusBar = True
 End Function
+</pre>
 
-Function StatusBarOff()
+<pre>
+Function <b>StatusBarOff</b>()
     Application.DisplayStatusBar = False
 End Function
+</pre>
 
-Sub StatusbarDisplay(Optional s)
+<pre>
+Sub <b>StatusbarDisplay</b>(Optional s)
     Application.DisplayStatusBar = True
     If IsMissing(s) Then s = "testing..."
         Application.StatusBar = s
