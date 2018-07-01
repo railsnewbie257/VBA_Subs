@@ -1,5 +1,7 @@
 <b>Dependencies</b>
-- FastloadWrite
+- [FastloadWrite](https://github.com/ppihoge/VBA_Subs/blob/master/FastloadWrite.md)
+- TDTableExists
+
 
 <pre>
 Sub FastLoad(Optional tableName)
