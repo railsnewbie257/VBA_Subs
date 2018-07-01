@@ -1,5 +1,5 @@
 <b>Dependencies</b>
-- MyUnion
+- [MyUnion](https://github.com/ppihoge/VBA_Subs/blob/master/MyUnion.md)
 
 <pre>
 Function FindRangeErrors(useRange As range) As range
