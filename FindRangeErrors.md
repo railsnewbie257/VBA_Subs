@@ -1,3 +1,6 @@
+<b>Dependencies</b>
+- MyUnion
+
 <pre>
 Function FindRangeErrors(useRange As range) As range
 Dim aRange As range, bRange As range
