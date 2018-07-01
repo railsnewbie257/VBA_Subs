@@ -1,3 +1,13 @@
+<h2>FindInRange Exact</h2>
+
+<pre>
+Function FindInRangeExact(searchValue, searchRange)
+    Set FindInRangeExact = FindInRange(searchValue, searchRange, xlWhole)
+End Function
+</pre>
+
+<h2>FindInRange</h2>
+
 <pre>
 Function FindInRange(searchValue, searchRange, Optional useLookAt) As range
 Dim startRange As range, resultRange As range
