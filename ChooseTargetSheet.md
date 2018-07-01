@@ -1,3 +1,5 @@
+Choose a spreadsheet (and workbook) to use.
+
 <pre>
 Public targetWorkbook As String
 Public targetWorksheet As String
