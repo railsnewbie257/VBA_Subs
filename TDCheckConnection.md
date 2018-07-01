@@ -1,11 +1,13 @@
 '
-' This routine is a workhorse
-' It checks to see if the provided object is connected
-' if not it checks if the global object is connected
-' if so, it uses the global connection
-' otherwise, it opens a new connection and saves to the global connection
-'
-Function TDCheckConnection(Optional TDConn)
+' This routine is a workhorse  
+' It checks to see if the provided object is connected  
+' if not it checks if the global object is connected  
+' if so, it uses the global connection  
+' otherwise, it opens a new connection and saves to the global connection  
+'  
+
+<pre>
+Function TDCheckConnection(Optional TDConn)  
 Dim haderror As Boolean
 
     Call StatusbarDisplay("TDCheckConnection: Check is Nothing.")
