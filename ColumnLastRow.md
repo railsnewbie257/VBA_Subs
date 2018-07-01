@@ -1,5 +1,5 @@
 <b>Dependency</b>
-- LastRow
+- [LastRow](https://github.com/ppihoge/VBA_Subs/blob/master/LastRow.md)
 
 <pre>
 Function ColumnLastRow(Optional useCol, Optional SHUse, Optional WBUse) ' problem ?
