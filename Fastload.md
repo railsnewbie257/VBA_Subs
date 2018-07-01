@@ -1,3 +1,6 @@
+<b>Dependencies</b>
+- FastloadWrite
+
 <pre>
 Sub FastLoad(Optional tableName)
 Dim wsh As Object
