@@ -2,7 +2,8 @@
 - [FastloadWrite](https://github.com/ppihoge/VBA_Subs/blob/master/FastloadWrite.md)
 - [TDTableExists](https://github.com/ppihoge/VBA_Subs/blob/master/TDTableExists.md)
 - [ColumnLastRow](https://github.com/ppihoge/VBA_Subs/blob/master/ColumnLastRow.md)
-- CheckReservedWords
+- [CheckReservedWord](https://github.com/ppihoge/VBA_Subs/blob/master/CheckReservedWord.md)
+- TrimReplace
 
 
 <pre>
