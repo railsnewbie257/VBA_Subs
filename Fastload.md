@@ -3,7 +3,7 @@
 - [TDTableExists](https://github.com/ppihoge/VBA_Subs/blob/master/TDTableExists.md)
 - [ColumnLastRow](https://github.com/ppihoge/VBA_Subs/blob/master/ColumnLastRow.md)
 - [CheckReservedWord](https://github.com/ppihoge/VBA_Subs/blob/master/CheckReservedWord.md)
-- TrimReplace
+- [TrimReplace](https://github.com/ppihoge/VBA_Subs/blob/master/TrimReplace.md)
 
 
 <pre>
