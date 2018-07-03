@@ -1,4 +1,4 @@
-Resets AutoParsing for copying from SQL Assistant (Tab delimited)
+Sets AutoParsing for copying from SQL Assistant (Tab delimited)
 
 <pre>
 Function SetAutoParse()
