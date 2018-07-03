@@ -8,7 +8,7 @@ Function ResetAutoParse()
         DataType:=xlDelimited, _
         TextQualifier:=xlDoubleQuote, _
         ConsecutiveDelimiter:=False, _
-        Tab:=False, _
+        Tab:=True, _
         Semicolon:=False, _
         Comma:=False, _
         Space:=False, _
