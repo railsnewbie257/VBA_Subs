@@ -1,7 +1,7 @@
 Resets AutoParsing for copying from SQL Assistant (Tab delimited)
 
 <pre>
-Function ResetAutoParse()
+Function SetAutoParse()
     t = Range("A1")
     Range("A1") = 1
     Range("A1").TextToColumns Destination:=Range("A1"), _
@@ -14,7 +14,8 @@ Function ResetAutoParse()
         Space:=False, _
         Other:=False, _
         OtherChar:="", _
-        FieldInfo:=Array(1, 1), TrailingMinusNumbers:=True
+        FieldInfo:=Array(1, 1), _
+        TrailingMinusNumbers:=False
     Range("A1") = t
 End Function
 </pre>
